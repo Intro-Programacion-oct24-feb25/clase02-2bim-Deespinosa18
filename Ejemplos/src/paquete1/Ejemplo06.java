@@ -33,6 +33,8 @@ public class Ejemplo06 {
             // de acuerdo al valor de i
             arreglo1[i] = dato;
             
+            //se puede utilizar tambien arreglo1[i] = entrada.nextInt();
+            
         }
         
         // Se hace uso del ciclo repetitivo for para recorrer el arreglo

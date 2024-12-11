@@ -25,7 +25,11 @@ public class Ejemplo02 {
         System.out.println(arreglo1[3]);
         System.out.println(arreglo1[4]);
         
-        // arreglo de tipo double
+        /* arreglo de tipo double imprime 0.0 ya que es un doble y el arreglo no
+        tiene un numero de valores especificados por 
+        elemento al igual que en los arreglos de enteros
+        */
+        
         double[] arreglo2 = new double[5];
         System.out.println(arreglo2[0]);
         
@@ -33,9 +37,13 @@ public class Ejemplo02 {
         String[] arreglo4 = new String[5];
         System.out.println(arreglo4[0]);
         
+        //da null ya que no esta declarado niguna cadena 
         // arreglo de tipo boleano
+        
         boolean[] arreglo5 = new boolean[5];
         System.out.println(arreglo5[0]);
+        //false 
+        
     }
 
 }

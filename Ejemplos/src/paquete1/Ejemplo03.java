@@ -32,6 +32,7 @@ public class Ejemplo03 {
         
         // arreglo de cadenas - 4 elementos
         String[] arreglo5 = {"Loja", "Quito", "Zamora", "Machala"};
+       
     }
-
+    
 }
